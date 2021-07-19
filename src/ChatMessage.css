@@ -1,0 +1,38 @@
+.message {
+	margin: 3px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.message img {
+	width: 25px;
+	border-radius: 50%;
+	align-self: flex-end;
+}
+
+.message p {
+	padding: 10px;
+	margin: 0px 10px;
+	border-radius: 25px;
+	font-size: 20px;
+	max-width: 45vw;
+	word-wrap: break-word;
+	text-align: left;
+}
+
+.received {
+	align-self: flex-start;
+}
+
+.sent {
+	align-self: flex-end;
+	flex-direction: row-reverse;
+}
+
+.received p {
+	background-color: hsl(83, 40%, 50%);
+}
+
+.sent p {
+	background-color: hsl(83, 40%, 35%);
+}
